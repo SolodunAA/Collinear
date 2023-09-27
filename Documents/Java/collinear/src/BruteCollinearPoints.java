@@ -8,7 +8,7 @@ public class BruteCollinearPoints {
 
     public BruteCollinearPoints(Point[] points) {
 
-        if (points == null) throw new IllegalArgumentException();
+        if (points == null) throw new IllegalArgumentException("points are null");
         for (int i = 0; i < points.length; i++) {
             if (points[i] == null) throw new IllegalArgumentException();
         }
